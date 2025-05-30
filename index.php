@@ -1,12 +1,13 @@
 <?php
 // Conexión a la base de datos de Azure
 <?php
-$server = 'servidorpaas.database.windows.net';
+$server = 'tcp:servidorpaas.database.windows.net,1433';
 $database = 'empresa';
 $user     = 'azureusersql';
 $pass     = 'Azureuser-sql1';
 
-$dsn = "sqlsrv:Server=$server;Database=$database";
+$sqlsrv_dsn = "sqlsrv:Server=tcp:servidorpaas.database.windows.net,1433;Database=empresa";
+
 
 $options = [
     PDO::ATTR_ERRMODE            => PDO::ERRMODE_EXCEPTION,
