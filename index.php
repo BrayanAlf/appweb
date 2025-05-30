@@ -1,7 +1,7 @@
 <?php
 // Conexión a la base de datos de Azure
 <?php
-$server = 'tcp:servidorpaas.database.windows.net,1433';
+$server = 'servidorpaas.database.windows.net';
 $database = 'empresa';
 $user     = 'azureusersql';
 $pass     = 'Azureuser-sql1';
