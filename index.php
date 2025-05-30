@@ -1,9 +1,9 @@
 <?php
 // Conexión a la base de datos de Azure
-$host = 'mi-servidor.mysql.database.azure.com';
+$host = 'servidorpaas.database.windows.net';
 $db   = 'empresa';
-$user = 'windows@mi-servidor';
-$pass = 'windows12345';
+$user = 'azureusersql';
+$pass = 'Azureuser-sql1';
 $charset = 'utf8mb4';
 
 $dsn = "mysql:host=$host;dbname=$db;charset=$charset";
